@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mobile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="16dp"
+        android:textColorHint="#C0C0C0"
+        app:boxBackgroundColor="#FFF"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusBottomEnd="5dp"
+        app:boxCornerRadiusBottomStart="5dp"
+        app:boxCornerRadiusTopEnd="5dp"
+        app:boxCornerRadiusTopStart="5dp"
+        app:boxStrokeColor="#E2E2E2"
+        app:counterEnabled="true"
+        app:counterMaxLength="13"
+        app:errorEnabled="true"
+        app:hintAnimationEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mobile_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@null"
+            android:focusable="auto"
+            android:hint="Your Mobile Number"
+            android:inputType="phone"
+            android:paddingStart="8dp"
+            android:textColorHint="#E2E2E2"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+</RelativeLayout>
